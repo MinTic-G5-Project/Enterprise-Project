@@ -1,11 +1,11 @@
 public class Empresa {
         private String nombre;
         private String direccion;
-        private int telefono;
+        private String telefono;
         private String nit;
 
         /* Constructor de la clase empresa*/
-        public Empresa(String nombre, String direccion, int telefono, String nit) {
+        public Empresa(String nombre, String direccion, String telefono, String nit) {
             this.nombre = nombre;
             this.direccion = direccion;
             this.telefono = telefono;
@@ -36,12 +36,12 @@ public class Empresa {
             this.direccion = direccion;
         }
 
-        public int getTelefono() {
+        public String getTelefono() {
 
             return telefono;
         }
 
-        public void setTelefono(int telefono) {
+        public void setTelefono(String telefono) {
 
             this.telefono = telefono;
         }
