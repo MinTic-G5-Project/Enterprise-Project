@@ -37,10 +37,11 @@ public class Main {
 
         System.out.println("MOVIMIENTOS :");
         System.out.println("El movimiento realizado" +todaysDate + " con un valor de " + mov.getMontonNegativo() +
-                "\n" + " para un saldo toltal de " +  mov.getMovimientoMonto());
+                "\n" + " para un saldo toltal de " +  mov.getMovimientoMonto() +  " realizado por " + emp.getNombre());
 
-        System.out.println("El giro relizado el día" + todaysDate + " con un valor de "+ mov.getMontonNegativo());
-        System.out.println("Pago nomima " + todaysDate + "  valor de " + mov.getMontoPositivo());
+        System.out.println("El giro relizado el día " + todaysDate + " con un valor de "+ mov.getMontonNegativo());
+        System.out.println("Pago nomima " + todaysDate + "  valor de " + mov.getMontoPositivo() +  " realizado por " + emp.getNombre())
+        ;
 
 
     }
