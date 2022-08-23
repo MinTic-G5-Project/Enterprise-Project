@@ -36,11 +36,11 @@ public class Main {
         + " de la empresa" + emp.getEmpresaPertenece());
 
         System.out.println("MOVIMIENTOS :");
-        System.out.println("El movimiento realizado" +todaysDate + "con un valor de " + mov.getMontonNegativo() +
+        System.out.println("El movimiento realizado" +todaysDate + " con un valor de " + mov.getMontonNegativo() +
                 "\n" + " para un saldo toltal de " +  mov.getMovimientoMonto());
 
         System.out.println("El giro relizado el día" + todaysDate + " con un valor de "+ mov.getMontonNegativo());
-        System.out.println("Pago nomima " + todaysDate + " valor de " + mov.getMontoPositivo());
+        System.out.println("Pago nomima " + todaysDate + "  valor de " + mov.getMontoPositivo());
 
 
     }
