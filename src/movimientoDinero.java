@@ -1,14 +1,12 @@
 public class movimientoDinero {
-    private double movimientoMonto,
-    montoPositivo,
-    montonNegativo,
-    Movimiento;
+    private double movimientoMonto, montoPositivo, montonNegativo;
+    private String conceptoMovimiento;
 
-    public movimientoDinero(double movimientoMonto, double montoPositivo, double montonNegativo, double movimiento) {
+    public movimientoDinero(double movimientoMonto, double montoPositivo, double montonNegativo, String conceptoMovimiento) {
         this.movimientoMonto = movimientoMonto;
         this.montoPositivo = montoPositivo;
         this.montonNegativo = montonNegativo;
-        Movimiento = movimiento;
+        this.conceptoMovimiento = conceptoMovimiento;
     }
 
 
@@ -39,11 +37,11 @@ public class movimientoDinero {
         this.montonNegativo = montonNegativo;
     }
 
-    public double getMovimiento() {
-        return Movimiento;
+    public String getconceptoMovimiento() {
+        return conceptoMovimiento;
     }
 
-    public void setMovimiento(double movimiento) {
-        Movimiento = movimiento;
+    public void setconceptoMovimiento(String conceptoMovimiento) {
+        this.conceptoMovimiento = conceptoMovimiento;
     }
 }
